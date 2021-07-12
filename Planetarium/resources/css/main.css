@@ -1,0 +1,542 @@
+.section--top
+{
+    background: url("../images/fon.jpg");
+    height: 1051px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.section--top .text--event
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.section--top .col.col--event
+{
+    margin-top: 80px;
+    margin-bottom: 180px;
+}
+
+.ellips
+{
+    margin-right: 37px;
+}
+
+.section--top .information--text--tight
+{
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 42px;
+    line-height: 51px;
+
+    color: #FFFFFF;
+}
+
+.section--top .information--text--bold
+{
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 78px;
+
+    color: #FFFFFF;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.btn--other
+{
+    width: 344px;
+    height: 84px;
+
+    background: #FFFFFF;
+    border-radius: 124px;
+
+    margin-top: 140px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+    border: none;
+
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.next
+{
+    width: 79px;
+    height: 90px;
+
+    margin-top: 73px;
+    margin-bottom: 65px;
+
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.section--about
+{
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+
+.img--about
+{
+    width: 533px;
+    height: 800px;
+}
+
+.section--about .about--text--bold
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 59px;
+
+    text-align: left;
+
+    color: #000000;
+
+    margin-bottom: 80px;
+}
+
+.section--about .about--text--tight
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #000000;
+}
+
+.telescope
+{
+    width: 131px;
+    height: 130px;
+
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.section--what
+{
+    margin-bottom: 80px;
+
+    background: url("../images/fon2.jpg");
+    height: 1051px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+
+}
+
+.section--what .what--text--bold
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 59px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    margin-bottom: 60px;
+    margin-top: 80px;
+}
+
+.section--what .what--text--tight
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    margin-bottom: 68px;
+}
+
+.section--what .what--text--mini
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    margin-top: 68px;
+    margin-bottom: 68px;
+}
+
+.btn--what
+{
+    width: 344px;
+    height: 84px;
+
+    background: #FFFFFF;
+    border-radius: 124px;
+
+    margin-bottom: 68px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+    border-color: none;
+
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    border: none;
+}
+
+.section--join
+{
+
+}
+
+.section--join .join--text--bold
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 59px;
+
+    text-align: center;
+
+    color: #000000;
+
+    margin-bottom: 97px;
+}
+
+.section--join .join--text--tight
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #000000;
+
+    margin-bottom: 20px;
+}
+
+.section--join .join--text--normal
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #000000;
+
+    margin-bottom: 80px;
+}
+
+.img--map
+{
+    width: 660px;
+    height: 374px;
+    box-shadow: 0px 4px 26px;
+    border-radius: 26px;
+
+    margin-bottom: 118px;
+}
+
+.textcols
+{
+	overflow: hidden;
+}
+
+.textcols-left
+{
+	float: left;
+	width: 48%;
+}
+
+.textcols-right
+{
+	margin-left: 52%;
+}
+
+.text--bl
+{
+    margin-bottom: 180px;
+}
+
+.footer
+{
+    background-color: black;
+}
+
+.footer .mobile--text
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 59px;
+
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+
+    margin-top: 57px;
+    margin-bottom: 90px;
+}
+
+.img--int
+{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    width: 46px;
+    height: 48px;
+}
+
+.img--int--1
+{
+    position: relative;
+    left: 115%;
+    transform: translate(0, 0);
+
+    width: 46px;
+    height: 48px;
+}
+
+.img--int--3
+{
+    position: relative;
+    right: 25%;
+    transform: translate(0, 0);
+
+    width: 46px;
+    height: 48px;
+
+    margin-bottom: 90px;
+}
+
+.footer .footer--text
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 44px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    margin-bottom: 90px;
+}
+
+.img--footer
+{
+    margin-bottom: 120px;
+}
+
+.anim-img
+  {
+    z-index: 1;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+  }
+
+.anim-img:hover
+  {
+    -webkit-box-shadow: 2px 2px 30px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 30px 2px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+  }
+
+
+  @media (max-width: 1400px)
+  {
+    .section--top .information--text--bold
+    {
+        font-size: 60px;
+    }
+
+    .section--top .information--text--tight
+    {
+        font-size: 30px;
+    }
+
+    .section--top .btn--other
+    {
+        width: 300px;
+        height: 70px;
+
+        margin-top: 70px;
+    }
+
+    .section--about .img--about
+    {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+        margin-bottom: 40px;
+    }
+
+    .section--about .about--text--bold
+    {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .section--what
+    {
+        height: 1000px;
+    }
+
+    .section--what .what--text--tight
+    {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .section--what .what--text--bold
+    {
+        font-size: 40px;
+        margin-bottom: 10px;
+        margin-top: 40px;
+    }
+
+    .section--what .what--text--mini
+    {
+        font-size: 15px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+
+    .section--what .img--what
+    {
+        width: 180px;
+        height: 180px;
+
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .section--what .img--media
+    {
+        margin-top: 10px;
+    }
+
+    .section--what .btn--what
+    {
+        width: 300px;
+        height: 70px;
+
+        margin-bottom: 40px;
+    }
+
+    .section--join .join--text--tight
+    {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .section--join .more--text
+    {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .section--join .join--text--bold
+    {
+        font-size: 36px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .section--join .join--text--normal
+    {
+        font-size: 27px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .section--join .text--bl
+    {
+        margin-bottom: 40px;
+    }
+
+    .footer .img--footer
+    {
+        width: 120px;
+
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+  }
+
+  @media (max-width: 1600px)
+  {
+      .section--join .img--map
+      {
+          width: 500px;
+          height: 300px;
+
+          margin-top: 15px;
+
+          margin-bottom: 80px;
+
+          position: relative;
+          left: 50%;
+          transform: translate(-50%, 0);
+      }
+  }
