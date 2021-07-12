@@ -52,8 +52,8 @@
             <div class="information--text--tight en">AT «GLUBOKAYA» STATION</div>
             <div class="information--text--tight ru">НА ГЛУБОКОЙ</div>
 
-            <button class="btn--other en" type="button">Sign up</button>
-            <button class="btn--other ru" type="button">Записаться</button>
+            <button class="btn--other en" type="button" onclick="window.location='https://telegram.me/PNikiforov'">Sign up</button>
+            <button class="btn--other ru" type="button" onclick="window.location='https://telegram.me/PNikiforov'">Записаться</button>
         </div>
 
         <div class="col">
@@ -138,8 +138,8 @@
                     *в зависимости от сезона, программа наблюдений меняется, уточняйте актуальную по телефону.
                 </div>
 
-                <button class="btn--what en" type="button">Sign up</button>
-                <button class="btn--what ru" type="button">Записаться</button>
+                <button class="btn--what en" type="button" onclick="window.location='https://telegram.me/PNikiforov'">Sign up</button>
+                <button class="btn--what ru" type="button" onclick="window.location='https://telegram.me/PNikiforov'">Записаться</button>
             </div>
         </div>
     </div>
