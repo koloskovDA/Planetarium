@@ -11,23 +11,9 @@
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
-    <script type="text/javascript">
-        var map;
-
-        DG.then(function () {
-            map = DG.map('map', {
-                center: [51.880849, 103.843803],
-                zoom: 13
-            });
-
-            DG.marker([51.880849, 103.843803]).addTo(map);
-        });
-    </script>
     <title>Планетарий</title>
 </head>
 <body>
-
 <section class="section section--top">
     <div class="container">
         <div class="row">
@@ -279,5 +265,18 @@
         crossorigin="anonymous"></script>
 <script src="{{asset('js/vendor/jquery.js')}}"></script>
 <script src="{{asset('js/main.js')}}"></script>
+<script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+<script type="text/javascript">
+    var map;
+
+    DG.then(function () {
+        map = DG.map('map', {
+            center: [51.881711,103.848353 ],
+            zoom: 15
+        });
+
+        DG.marker([51.881382, 103.843903]).addTo(map);
+    });
+</script>
 </body>
 </html>
