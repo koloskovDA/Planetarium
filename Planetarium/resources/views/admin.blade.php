@@ -16,7 +16,7 @@
 <body>
 <br />
 <div class="container box">
-    <h3 align="center">Серии наблюдений</h3><br />
+    <h3 align="center">Серии наблюдений / <a href="{{route('texts')}}">Тексты</a></h3><br />
 
     @if(isset(Auth::user()->email))
         <div class="alert alert-danger success-block">
@@ -48,6 +48,7 @@
                 @csrf
                 <tr>
                     <td>
+                        <input type="number" name="stage_number" class="form-control">
                     </td>
                     <td>
                         <input type="date" name="starts_at" class="form-control">
@@ -62,7 +63,7 @@
         <tbody>
             @foreach ($stages as $stage)
                 <tr>
-                    <td>{{$stage->id}}</td>
+                    <td>{{$stage->stage_number}}</td>
                     <td>{{$stage->starts_at}}</td>
                     <td>{{$stage->ends_at}}</td>
                     <td>

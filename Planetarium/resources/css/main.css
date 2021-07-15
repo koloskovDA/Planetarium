@@ -408,6 +408,10 @@ img
 
 @media (max-width: 1400px)
 {
+    .ellips
+    {
+        display: none;
+    }
     .section--top .information--text--bold
     {
         font-size: 60px;
